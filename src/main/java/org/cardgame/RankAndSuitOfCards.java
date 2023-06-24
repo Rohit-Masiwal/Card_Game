@@ -2,19 +2,19 @@ package org.cardgame;
 
 public class RankAndSuitOfCards {
     public enum Rank {
-        Ace,
-        Two,
-        Three,
-        Four,
-        Five,
-        Six,
-        Seven,
-        Eight,
-        Nine,
-        Ten,
-        King,
-        Queen,
-        Jack
+        ACE,
+        TWO,
+        THREE,
+        FOUR,
+        FIVE,
+        SIX,
+        SEVEN,
+        EIGHT,
+        NINE,
+        TEN,
+        KING,
+        QUEEN,
+        JACK
     }
     public enum Suits {
         SPADES,
