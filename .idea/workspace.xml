@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12fa6fb-86dc-4a31-b7fe-caa3e9f19ac7" name="Changes" comment="Adding helper classes">
+    <list default="true" id="a12fa6fb-86dc-4a31-b7fe-caa3e9f19ac7" name="Changes" comment="Updating Rank enum">
       <change afterPath="$PROJECT_DIR$/src/test/java/DeckOfCardsTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -24,6 +24,9 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0571ea5e-f22d-420b-8b88-d6a2d481cc98" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -146,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687608156579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating Rank enum">
+      <created>1687622760229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687622760229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +175,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding Main class GameInit.java" />
     <MESSAGE value="Adding helper classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding helper classes" />
+    <MESSAGE value="Updating Rank enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating Rank enum" />
   </component>
 </project>
