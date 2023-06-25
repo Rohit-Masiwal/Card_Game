@@ -120,24 +120,24 @@ public class GameInit {
                     break;
                 }
 
-                // if the current player plays ACE then next player's chance will be skipped
-                if (matchedRank == ACE) {
-                    playerNumber += clockwiseDirection ? 1 : -1;
-                }
-
                 // if the current player plays KING then reverse the sequence of players
                 if (matchedRank == KING) {
                     clockwiseDirection = !clockwiseDirection;
                 }
 
-                // if the current player plays JACK then next player will draw 4 cards
-                if (matchedRank == JACK) {
-                    numberOfCardsToDraw = 4;
+                // if the current player plays ACE then next player's chance will be skipped
+                if (matchedRank == ACE) {
+                    playerNumber += clockwiseDirection ? 1 : -1;
                 }
 
                 // if the current player plays QUEEN then next player will draw 2 cards
                 if (matchedRank == QUEEN) {
                     numberOfCardsToDraw = 2;
+                }
+
+                // if the current player plays JACK then next player will draw 4 cards
+                if (matchedRank == JACK) {
+                    numberOfCardsToDraw = 4;
                 }
             }
 
