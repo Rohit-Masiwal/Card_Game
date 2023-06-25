@@ -5,19 +5,30 @@ import java.util.Collections;
 import java.util.List;
 
 public class DeckOfCards {
-    private List<RankAndSuitOfCards> deckOfCards = new ArrayList<>();
+    private List<RankAndSuitOfCards> deckOfCards;
     public DeckOfCards() {
+        this.deckOfCards = createDeckOfCards();
+        Collections.shuffle(deckOfCards);
+    }
+
+    public List<RankAndSuitOfCards> createDeckOfCards() {
+        List<RankAndSuitOfCards> deckOfCards = new ArrayList<>();
         for(RankAndSuitOfCards.Rank rank: RankAndSuitOfCards.Rank.values()) {
             for(RankAndSuitOfCards.Suits suits : RankAndSuitOfCards.Suits.values()) {
-                this.deckOfCards.add(new RankAndSuitOfCards(rank, suits));
+                deckOfCards.add(new RankAndSuitOfCards(rank, suits));
             }
         }
-        Collections.shuffle(this.deckOfCards);
+
+        return deckOfCards;
     }
 
     // getter methods for instance variable deckOfCards
     public List<RankAndSuitOfCards> getDeckOfCards() {
         return this.deckOfCards;
+    }
+
+    public void setDeckOfCards(List<RankAndSuitOfCards> deckOfCards) {
+        this.deckOfCards = deckOfCards;
     }
 
 }
